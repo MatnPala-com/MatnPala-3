@@ -21,6 +21,7 @@
 
 ## Table of Contents
 - [Architecture](#architecture)
+- [About](#about)
 - [Requirements](#requirements)
 - [Quick Start](#quick-start)
 - [Evaluation Metrics](#evaluation-metrics)
@@ -38,6 +39,12 @@ The engine utilizes a hybrid, multi-layered pipeline that combines statistical w
 *   **Coreference Resolution:** Detects anaphoras and pronouns to maintain textual cohesion and prevent fragmented summaries.
 *   **MMR (Maximal Marginal Relevance):** Prunes redundant sentences to maximize information coverage while maintaining a low and efficient compression ratio.
 *   **Argument Mining:** Identifies theses, premises, objections, and conclusions to preserve the logical skeleton of complex texts.
+
+## About
+
+MatnPala was built from the ground up to solve a fundamental problem: most AI tools treat Persian as a secondary language, relying on heavy translation layers or external APIs. We believe the Persian language deserves a native, independent, and privacy-first NLP engine. 
+
+Designed and developed entirely offline, MatnPala represents a commitment to linguistic accuracy, data privacy, and architectural minimalism.
 
 ## Requirements
 
