@@ -1,4 +1,4 @@
-```html
+```markdown
 <p align="center">
   <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="150" style="border-radius: 12px;" />
 </p>
