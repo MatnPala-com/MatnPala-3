@@ -1,19 +1,23 @@
-<div dir="rtl" align="right">
-
-# MatnPala 3
-
 <div align="center">
-  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="160" style="border-radius: 20px;" />
+
+  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="160" style="border-radius: 20px; margin-bottom: 10px;" />
+
+  <h1>MatnPala 3</h1>
+
+  <p>
+    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" />
+    <img src="https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg" alt="PHP Version" />
+    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status" />
+    <img src="https://img.shields.io/badge/Version-3.0.0-brightgreen.svg" alt="Version" />
+  </p>
+
+  <p><b>An independent, zero-dependency NLP engine designed for deep semantic understanding and high-fidelity summarization of Persian (Farsi) text.</b></p>
+
 </div>
 
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
-![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg)
-![Status](https://img.shields.io/badge/Status-Active-success.svg)
-![Version](https://img.shields.io/badge/Version-3.0.0-brightgreen.svg)
+---
 
-**MatnPala** is an advanced, independent, and zero-dependency Natural Language Processing (NLP) engine meticulously designed for deep semantic understanding and high-fidelity summarization of Persian (Farsi) text. 
-
-In an era where most AI tools rely heavily on external APIs (such as OpenAI or Anthropic), MatnPala operates entirely offline on your own infrastructure. This architecture guarantees complete data privacy, ultra-low latency, and absolute control over the inference pipeline. The engine is built from the ground up to tackle the unique morphological and syntactical complexities of the Persian language, ensuring that the core meaning and logical flow of the original text are never lost.
+**MatnPala** operates entirely offline on your own infrastructure. Unlike tools that rely on external APIs (such as OpenAI or Anthropic), this architecture guarantees complete data privacy, ultra-low latency, and absolute control over the inference pipeline. The engine is built from the ground up to tackle the unique morphological and syntactical complexities of the Persian language, ensuring that the core meaning and logical flow of the original text are never lost.
 
 ## Table of Contents
 - [Architecture](#architecture)
@@ -44,18 +48,21 @@ The engine utilizes a hybrid, multi-layered pipeline that combines statistical w
 ## Quick Start
 
 1. Clone the repository:
+
 ```bash
 git clone https://github.com/YourUsername/MatnPala.git
 cd MatnPala
 ```
 
 2. Configure paths in `vip.php`:
+
 ```php
 define('DB_PATH', __DIR__ . '/data/db.sqlite');
 define('WEIGHT_LANG_PATH', __DIR__ . '/lang/Weight');
 ```
 
 3. Run the engine via PHP:
+
 ```php
 require 'vip.php';
 
@@ -89,5 +96,3 @@ The engine evaluates its own output based on structural and semantic preservatio
 ## License
 
 Distributed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE for more information.
-
-</div>
