@@ -1,15 +1,15 @@
-<div align="center">
-  <h1>MatnPala 3</h1>
-  
-  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="180" style="border-radius: 50%; box-shadow: 0 8px 24px rgba(0,0,0,0.15); margin: 20px 0;" />
+<div dir="rtl" align="right">
 
-  <p>
-    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License" style="border-radius: 6px;" />
-    <img src="https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg" alt="PHP Version" style="border-radius: 6px;" />
-    <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status" style="border-radius: 6px;" />
-    <img src="https://img.shields.io/badge/Version-3.0.0-brightgreen.svg" alt="Version" style="border-radius: 6px;" />
-  </p>
+# MatnPala 3
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="160" style="border-radius: 20px;" />
 </div>
+
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
+![PHP Version](https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg)
+![Status](https://img.shields.io/badge/Status-Active-success.svg)
+![Version](https://img.shields.io/badge/Version-3.0.0-brightgreen.svg)
 
 **MatnPala** is an advanced, independent, and zero-dependency Natural Language Processing (NLP) engine meticulously designed for deep semantic understanding and high-fidelity summarization of Persian (Farsi) text. 
 
@@ -77,42 +77,17 @@ if ($result['success']) {
 
 The engine evaluates its own output based on structural and semantic preservation. Current internal benchmarks for version 3 (Philosophy domain) show significant improvements over previous versions:
 
-<div style="border-radius: 12px; overflow: hidden; border: 1px solid #e1e4e8; margin-bottom: 20px;">
-  <table style="border-collapse: collapse; width: 100%; margin: 0;">
-    <thead style="background-color: #f6f8fa;">
-      <tr>
-        <th style="padding: 12px; text-align: left; border-bottom: 1px solid #e1e4e8;">Metric</th>
-        <th style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;">v2</th>
-        <th style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;">v3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="padding: 12px; border-bottom: 1px solid #e1e4e8;">Semantic Independence</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;">45%</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;"><b>85%</b></td>
-      </tr>
-      <tr>
-        <td style="padding: 12px; border-bottom: 1px solid #e1e4e8;">Coherence & Readability</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;">55%</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;"><b>80%</b></td>
-      </tr>
-      <tr>
-        <td style="padding: 12px; border-bottom: 1px solid #e1e4e8;">Logical Structure Preservation</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;">70%</td>
-        <td style="padding: 12px; text-align: center; border-bottom: 1px solid #e1e4e8;"><b>75%</b></td>
-      </tr>
-      <tr>
-        <td style="padding: 12px; border-bottom: none;">Content Coverage</td>
-        <td style="padding: 12px; text-align: center; border-bottom: none;">80%</td>
-        <td style="padding: 12px; text-align: center; border-bottom: none;"><b>70%</b></td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+| Metric | v2 | v3 |
+| :--- | :---: | :---: |
+| Semantic Independence | 45% | **85%** |
+| Coherence & Readability | 55% | **80%** |
+| Logical Structure Preservation | 70% | **75%** |
+| Content Coverage | 80% | **70%** |
 
 *(Note: These are heuristic diagnostics, not human-rated gold standards. The goal is to reach 99.9% accuracy).*
 
 ## License
 
 Distributed under the GNU General Public License v3.0 (GPL-3.0). See LICENSE for more information.
+
+</div>
