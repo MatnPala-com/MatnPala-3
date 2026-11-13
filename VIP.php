@@ -58,9 +58,9 @@ if (!function_exists('mb_strlen')) {
 }
 
 /* ثابت‌ها */
-if (!defined('DB_PATH'))          define('DB_PATH', '/home/matnpala/secure_data/gshvjfahv');
-if (!defined('FEEDBACK_PATH'))    define('FEEDBACK_PATH', '/home/matnpala/secure_data/jbddjbkewgbhkewbjfwekfe');
-if (!defined('MSG_COUNTER_FILE')) define('MSG_COUNTER_FILE', '/home/matnpala/secure_data/bjjbbj.txt');
+if (!defined('DB_PATH'))          define('DB_PATH', 'مسیر فایل');
+if (!defined('FEEDBACK_PATH'))    define('FEEDBACK_PATH', 'مسیر فایل');
+if (!defined('MSG_COUNTER_FILE')) define('MSG_COUNTER_FILE', 'مسیر فایل');
 if (!defined('WEIGHT_LANG_PATH')) define('WEIGHT_LANG_PATH', __DIR__ . '/lang/Weight');
 
 /* ═══════════ پیکربندی WeightEngine ═══════════ */
