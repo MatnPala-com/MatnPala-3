@@ -1,16 +1,18 @@
 ```markdown
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="150" style="border-radius: 12px;" />
-</p>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MatnPala-com/MatnPala-3/refs/heads/main/Logo_MatnPala.jpg" alt="MatnPala Logo" width="150" />
+</div>
 
 <h1 align="center">MatnPala 3</h1>
 
-<p align="center">
+<div align="center">
   <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" alt="License: GPL v3" />
   <img src="https://img.shields.io/badge/PHP-%3E%3D8.0-8892BF.svg" alt="PHP Version" />
   <img src="https://img.shields.io/badge/Status-Active-success.svg" alt="Status" />
   <img src="https://img.shields.io/badge/Version-3.0.0-brightgreen.svg" alt="Version" />
-</p>
+</div>
+
+<br>
 
 MatnPala is an independent, zero-dependency NLP engine built for deep semantic understanding and summarization of Persian (Farsi) text. Unlike conventional summarizers that rely on external cloud services, MatnPala runs entirely offline and does not depend on any third-party API (e.g., OpenAI). This design guarantees complete data privacy, ultra-low latency, and full control over your data, making it suitable for sensitive, academic, and philosophical corpora where confidentiality and reproducibility matter most.
 
@@ -81,37 +83,12 @@ if ($result['success']) {
 
 Current internal benchmarks for version 3 (Philosophy domain):
 
-<table align="center" style="border-radius: 6px; overflow: hidden; border-collapse: separate; border-spacing: 0;">
-  <thead>
-    <tr>
-      <th align="left">Metric</th>
-      <th align="center">v2</th>
-      <th align="center">v3</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td align="left">Semantic Independence</td>
-      <td align="center">45%</td>
-      <td align="center">85%</td>
-    </tr>
-    <tr>
-      <td align="left">Coherence &amp; Readability</td>
-      <td align="center">55%</td>
-      <td align="center">80%</td>
-    </tr>
-    <tr>
-      <td align="left">Logical Structure Preservation</td>
-      <td align="center">70%</td>
-      <td align="center">75%</td>
-    </tr>
-    <tr>
-      <td align="left">Content Coverage</td>
-      <td align="center">80%</td>
-      <td align="center">70%</td>
-    </tr>
-  </tbody>
-</table>
+| Metric | v2 | v3 |
+| :--- | :---: | :---: |
+| Semantic Independence | 45% | 85% |
+| Coherence & Readability | 55% | 80% |
+| Logical Structure Preservation | 70% | 75% |
+| Content Coverage | 80% | 70% |
 
 *(Note: These are heuristic diagnostics, not human-rated gold standards. The goal is to reach 99.9% accuracy.)*
 
